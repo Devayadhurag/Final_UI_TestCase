@@ -1,0 +1,31 @@
+.topbar{
+    display: flex;
+    justify-content: space-between;
+    &__left{
+        padding-left: $spacer-6;
+        & i{
+            padding-right: 10px;
+        }
+    }
+
+    &__right{
+        padding-right: $spacer-6;
+        & button{
+            padding: 0 5px 0;
+            background-color: $colour-title;
+            border: 0;
+            width: 200px;
+            color: $colour-white;
+
+            & i{
+                padding-right: 10px;
+            }
+        }
+    }
+}
+
+@include mobile{
+    .topbar__right button{
+        width: 150px;
+    }
+}

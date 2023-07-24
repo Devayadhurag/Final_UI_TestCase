@@ -1,0 +1,42 @@
+//imported from abstract/mixin
+@import './abstracts/mixins/mixin.scss';
+
+//imported from abstract/variables
+@import './abstracts/variables/color.scss';
+@import './abstracts/variables/spacer.scss';
+
+// imported from base
+@import './base/fonts';
+@import './base/base';
+
+// Imported from scss/components/atom
+@import './components/atom/section-1-folder-icon';
+@import './components/atom/section-1-button';
+@import './components/atom/section-2-card';
+@import './components/atom/section-3-img';
+
+// Imported from scss/components/molecule
+@import './components/molecule/carousel-background';
+@import './components/molecule/carousel-text';
+@import './components/molecule/section-1-part-1';
+@import './components/molecule/section-1-part-2';
+@import './components/molecule/section-2-part-1';
+@import './components/molecule/section-2-part-2';
+@import './components/molecule/section-3-title';
+@import './components/molecule/section-3-container';
+@import './components/molecule/section-4-head';
+@import './components/molecule/section-4-container';
+@import './components/molecule/demo-request';
+@import './components/molecule/demo-text';
+@import './components/molecule/footer-card';
+
+// Imported from scss/components/organism
+@import './components/organism/topbar';
+@import './components/organism/navbar';
+@import './components/organism/carousel';
+@import './components/organism/section-1';
+@import './components/organism/section-2';
+@import './components/organism/section-3';
+@import './components/organism/section-4';
+@import './components/organism/demo';
+@import './components/organism/footer';

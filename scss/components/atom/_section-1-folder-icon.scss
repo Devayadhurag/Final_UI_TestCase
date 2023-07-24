@@ -1,0 +1,9 @@
+.section-1__part-2-img{
+    width: 400px;
+}
+
+@include tablet{
+    .section-1__part-2-img{
+        width: 300px;
+    }
+}
